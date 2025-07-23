@@ -1,0 +1,88 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.Header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* position: fixed; */
+    
+    
+}
+.Menu{
+    height: 62px;
+    display: flex;
+    gap: 24px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 400;
+    color: #000;
+    text-decoration: none;
+    background-color: rgba(245, 245, 247, 0.80);
+}
+.donationboard{
+    height: 52px;
+    padding: 16px;
+    background-color: #FFFFFF;
+}
+.Iphone16pro{
+    display: flex;
+    background-image: url(./images/iphone16pro.jpg);
+    height: 692px;
+    width: 100%;
+    background-position: center;
+    flex-direction: column;
+}
+.Iphone16p{
+    color: #F5F5F7;
+    font-size: 24px;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 16px;
+    margin-bottom: 20px;
+}
+.Iphone16h{
+    color: #F5F5F7;
+    text-align: center;
+    font-size: 52px;
+    font-weight: 600;
+    padding-top: 55px;
+
+}
+.Buttonblues{
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+}
+.Buttonblue{
+    width: 123px;
+    height: 44px;
+    background-color: #0071E3;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 999px;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+}
+.Buttonbluebuy{
+    width: 68px;
+    height: 44px;
+    color: #0071E3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 999px;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+}
+
