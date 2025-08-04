@@ -1,0 +1,31 @@
+.box1{
+    display: grid;
+    grid-template-columns: 400px 397px 397px 397px 397px;
+    grid-template-rows:  500px;
+    padding-right: 140px;
+    padding-left: 140px;
+    overflow-x: scroll; 
+    gap: 20px;
+    width: 1920px;
+}
+.Holidays-Pick{
+    background-color: #F5F5F7;}
+.Kindofaccessories{
+    background-image: url(./images/kindofaccessories.jpg);
+    background-position: center;
+    background-size: cover;
+    padding-top: 53px;
+    padding-left: 30px;
+}
+.Kindofaccessories p{
+    color: #1D1D1F;
+    font-weight: 700;
+    font-size: 26px;
+}
+.Beats-solo-P {
+    display: flex;
+    flex-direction:column;
+    align-self: flex-start;
+    margin-left: 28px;
+    gap: 12px;
+}

@@ -1,0 +1,79 @@
+.box1{
+    display: grid;
+    grid-template-columns: 400px 397px 397px 397px 397px;
+    grid-template-rows:  500px;
+    padding-right: 140px;
+    padding-left: 140px;
+    overflow-x: scroll; 
+    gap: 20px;
+    width: 1920px;
+}
+.Personalization{
+    background-color: #F5F5F7;
+}
+.Air-pod-gift{
+    background-image: url(./images/airpod-gift.jpg);
+    background-position: center;
+    background-size: cover;
+    padding-top: 53px;
+    padding-left: 30px;
+}
+.Air-pod-gift p{
+    color: #1D1D1F;
+    font-weight: 700;
+    font-size: 36px;
+}
+.Product-Personalization{
+    border-radius: 18px;
+    background: #FFF;
+    box-shadow: 2px 4px 12px 0 rgba(0, 0, 0, 0.08);
+    display: flex;
+    flex-direction: column; 
+    justify-content: space-between;
+    align-items: center;
+}
+.bullet-airpod-max{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 7px;
+    margin-top: 25px;
+}
+.bullet{
+    width: 12px;
+    height: 12px;     
+    background-color: black;
+    border-radius: 50%;
+}
+.Product-img img{
+    width: 230px;
+    height: 230px; 
+    margin-top: 71px;
+}
+.Airpod-max-p{
+    display: flex;
+    flex-direction:column;
+    gap: 32px;
+    align-self: flex-start;
+    margin-left: 28px;
+}
+.Free-Engraving-P{
+    color: #B64400;
+    font-size: 12px;
+    font-weight: 700;
+    margin-bottom: 6px;
+}
+
+.Cost-Personalization{
+    color: #1D1D1F;
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 32px;
+}
+.Product-name-Personalization{
+    color: #1D1D1F;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+}
