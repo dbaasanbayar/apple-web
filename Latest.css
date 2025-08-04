@@ -1,0 +1,84 @@
+.Container{
+    display: grid;
+    grid-row: 580px;
+    gap: 60px;
+    width: 1920px;
+    background-color: #F5F5F7;
+}
+.box{
+    display: grid;
+    grid-template-columns: 480px 480px 480px 480px ;
+    grid-template-rows:  500px;
+    padding-right: 140px;
+    padding-left: 140px;
+    overflow-x: scroll; 
+    gap: 20px;
+    width: 1920px;
+    
+}
+.iphone16pro{
+    background-image: url(./images/iphone16pro.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.applewatch10{
+    background-image: url(./images/apple-watch-10.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.ipadmini{
+    background-image: url(./images/ipadmini.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.macbookpro{
+    background-image: url(./images/macbook-pro.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.Title{
+    display: flex;
+    padding-right: 140px;
+    padding-left: 140px;
+    margin-bottom: 24px;
+    gap: 4px;
+}
+.p1{
+    background: linear-gradient(90deg, #0090F7 0%, #BA62FC 50%, #F2416B 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 24px;
+    font-weight: 700;
+}
+.p2{
+    color: #6E6E73;
+    font-size: 24px;
+    font-weight: 700;
+}
+.iphone16pro-p{
+    margin-top: 30px;
+    margin-left: 30px;
+}
+.Apple-int-p{
+    color: #B64400;
+    font-size: 12px;
+    font-weight: 700;
+    margin-bottom: 9px;
+}
+.P-name{
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 700;
+    color: #1D1D1F;
+    margin-bottom: 12px;
+}
+.P-cost{
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    color: #1D1D1F;
+}
+.Apple-int-watch-p{
+    margin-top: 50px;
+}
