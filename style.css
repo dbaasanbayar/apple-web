@@ -1,138 +1,177 @@
 *{
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
 }
 .Header{
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
-    width: 1920px;
-    background-color: #F5F5F7;
 }
 .Menu{
+    height: 62px;
     display: flex;
+    gap: 24px;  
+    width: 100%;
     align-items: center;
     justify-content: center;
-    gap: 24px;
-    background: rgba(245, 245, 247, 0.80);
-    width: 100%;
     text-align: center;
     font-size: 12px;
     font-weight: 400;
-    height: 44px;
+    background-color: rgba(245, 245, 247, 0.80);
 }
-.Menu a{
-    color: #000000;
-    text-decoration: none;
-}
-.Promo{
-    height: 60px;
+
+.Menutablet{
+    display: flex; background-color: rgba(245, 245, 247, 0.80);
     width: 100%;
-    display: flex;
-    background: #FFF;
-    justify-content: center;
+    gap: 24px;
     align-items: center;
-}
-.blured-colors{
-    display: flex;
-    width: 100%;
-    height: 75px;
-    background: #F5F5F7;
-}
-.color1{
-    height: 25px;
-    background-color: #019FFB;
-    width: 50%;
-    opacity: 0.5;
-    fill: #019FFB;
-    filter: blur(10px);
-}
-.color2{
-    background-color: #F55BE4;
-    height: 25px;
-    width: 25%;
-    opacity: 0.5;
-    filter: blur(10px);
-    border-radius: 361.5px;
-}
-.color3{
-    background-color: #FD8C1F;
-    border-radius: 204.5px;
-    height: 25px;
-    width: 25%;
-    opacity: 0.5;
-    filter: blur(10px);
-}
-.Holiday-Promo{
-    height: 260px;
-    width: 100%;
-    display: flex;
     justify-content: space-between;
-    align-items: center;
-    padding-left: 140px;
-    padding-right: 140px;
+    text-align: center;
+    padding-right: 15px;
+    padding-left: 15px;
 }
-.Promo-Heading{
+.Menutablet{
+    display: none;
+}
+
+.icons_3{
+    gap: 24px;
     display: flex;
-    gap: 32px;
-    align-items: flex-start;
 }
-.Promo-Heading p1{
-    font-size: 44px;
-    font-weight: 700;
-    background: linear-gradient(90deg, #0090F7 0%, #BA62FC 50%, #F2416B 100%);
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+
+.Menu a{
+    text-decoration: none;
+    color: black;
 }
-.Promo-Heading p2{
-    font-size: 44px;
-    font-weight: 700;
-    color: #6E6E73;
+.donationboard{
+    height: 52px;
+    padding: 16px;
+    background-color: #FFFFFF;
 }
-.Contact-Specialist{
-    display: flex;
+.phone-donation{
+    height: 73px;
+    padding: 18px 31px;
+    justify-content: center;
     flex-direction: column;
-    align-items: flex-end;
-}
-.Specialist{
     display: flex;
+    align-items: center;
+}
+.phone-donation{
+    display: none;
+}
+.Iphone16pro{
+    display: flex;
+    background-image: url(./images/iphone16pro.jpg);
+    height: 692px;
+    width: 100%;
+    background-position: center;
+    flex-direction: column;
+}
+.Iphone16p{
+    color: #F5F5F7;
+    font-size: 24px;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 16px;
+    margin-bottom: 20px;
+}
+.Iphone16h{
+    color: #F5F5F7;
+    text-align: center;
+    font-size: 52px;
+    font-weight: 600;
+    padding-top: 55px;
+
+}
+.Buttonblues{
+    display: flex;
+    justify-content: center;
     gap: 16px;
 }
-.Contact-Specialist p{
-    font-size: 14px;
-    font-weight: 700;
-    color: #1D1D1F;
-}
-.Contact-Specialist img{
-    border-radius: 50%;
-}
-.Contact-Specialist a{
-    font-size: 14px;
-    font-weight: 400;
-    color: #0066CC;
-    text-decoration-line: underline;
-    text-decoration-style: solid;
-    text-decoration-skip-ink: auto;
-    text-decoration-thickness: auto;
-    text-underline-offset: auto;
-    text-underline-position: from-font;
-}
-.List-Products{
-    height: 146px;
-    width: 100%;
+.Buttonblue{
+    width: 123px;
+    height: 44px;
+    background-color: #0071E3;
+    color: #FFFFFF;
     display: flex;
-    justify-content: space-evenly;
-    padding-left: 140px;
-    padding-right: 140px;
-}
-.Products{
-    display: flex;
-    flex-direction: column;
+    justify-content: center;
     align-items: center;
+    border-radius: 999px;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
 }
-.Products img{ 
-    height: 78px;
-    width: 120px;}
+.Buttonbluebuy{
+    width: 68px;
+    height: 44px;
+    color: #0071E3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 999px;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    border: solid #0071E3 1px;
+    background-color: transparent;
+}
+
+
+@media (max-width: 768px) {
+    .Menu{
+        display: none;
+    }
+    .Menutablet{
+        display: flex;
+    }
+    .Iphone16h{
+        font-size: 42px;
+    }
+    .Iphone16p{
+        font-size: 22px;
+    }
+    .Shopgifts{
+        display: none;
+    }
+    
+}
+
+@media (max-width: 390px)
+{
+    .donationboard{
+        display: none;
+    }
+    .phone-donation{
+        display: flex;
+    }
+    .Iphone16pro{
+        background-image: url(./images/iphone16pro-390.jpg);
+        width: 390px;
+        height: 500px;
+        display: flex;
+        justify-content: end;
+        margin-bottom: 12px;
+    }
+    .Iphone16pro h1{
+        font-size: 30px;
+        font-weight: 700;
+        text-align: center;
+        margin-top: 390px;
+    }
+    .Iphone16pro p{
+        font-size: 18px;
+        font-weight: 400;
+        margin-top: 8px;
+        margin-bottom: 16px;
+    }
+    .Buttonblue{
+        width:107px;
+        height: 36px;
+    }
+    .Buttonbluebuy{
+        height: 36px;
+        width: 66px;
+    }
+}
