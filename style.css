@@ -8,28 +8,58 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    /* position: fixed; */
-    
-    
 }
 .Menu{
     height: 62px;
     display: flex;
-    gap: 24px;
+    gap: 24px;  
     width: 100%;
     align-items: center;
     justify-content: center;
     text-align: center;
     font-size: 12px;
     font-weight: 400;
-    color: #000;
-    text-decoration: none;
     background-color: rgba(245, 245, 247, 0.80);
+}
+
+.Menutablet{
+    display: flex; background-color: rgba(245, 245, 247, 0.80);
+    width: 100%;
+    gap: 24px;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.Menutablet{
+    display: none;
+}
+
+.icons_3{
+    gap: 24px;
+    display: flex;
+}
+
+.Menu a{
+    text-decoration: none;
+    color: black;
 }
 .donationboard{
     height: 52px;
     padding: 16px;
     background-color: #FFFFFF;
+}
+.phone-donation{
+    height: 73px;
+    padding: 18px 31px;
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+}
+.phone-donation{
+    display: none;
 }
 .Iphone16pro{
     display: flex;
@@ -84,5 +114,64 @@
     font-size: 16px;
     font-weight: 400;
     text-align: center;
+    border: solid #0071E3 1px;
+    background-color: transparent;
 }
 
+
+@media (max-width: 768px) {
+    .Menu{
+        display: none;
+    }
+    .Menutablet{
+        display: flex;
+    }
+    .Iphone16h{
+        font-size: 42px;
+    }
+    .Iphone16p{
+        font-size: 22px;
+    }
+    .Shopgifts{
+        display: none;
+    }
+    
+}
+
+@media (max-width: 390px)
+{
+    .donationboard{
+        display: none;
+    }
+    .phone-donation{
+        display: flex;
+    }
+    .Iphone16pro{
+        background-image: url(./images/iphone16pro-390.jpg);
+        width: 390px;
+        height: 500px;
+        display: flex;
+        justify-content: end;
+        margin-bottom: 12px;
+    }
+    .Iphone16pro h1{
+        font-size: 30px;
+        font-weight: 700;
+        text-align: center;
+        margin-top: 390px;
+    }
+    .Iphone16pro p{
+        font-size: 18px;
+        font-weight: 400;
+        margin-top: 8px;
+        margin-bottom: 16px;
+    }
+    .Buttonblue{
+        width:107px;
+        height: 36px;
+    }
+    .Buttonbluebuy{
+        height: 36px;
+        width: 66px;
+    }
+}

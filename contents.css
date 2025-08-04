@@ -1,0 +1,226 @@
+.contents{
+    height: 292px;
+    margin-top: 36px;
+    gap: 16px;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+}
+.contentss { 
+    display: flex; 
+    gap: 16px;
+    overflow-x: scroll;
+    
+}
+    
+.barby{
+    background-image: url(./images/barby.jpg);
+    height: 236px;
+    min-width: 417px;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+.barby p{ 
+    font-size: 14px;
+    font-weight: 600;
+    color: white;
+    padding: 15px 0px 0px 15px;
+}
+.barby p1{ 
+    font-size: 14px;
+    font-weight: 600;
+    color: white;
+    padding: 0px 0px 20px 15px; 
+}
+.fitnesslogo{
+    margin: -40px 15px 23px 324px;
+}
+
+.khalid{
+    background-color: #1B2632;
+    height: 236px;
+    min-width: 417px;
+    display: flex;
+}
+.imgkhalid{
+    display: flex;
+    align-items: center;
+    margin: 20px 31px;
+    gap: 15px;
+}
+.imgkhalid img{
+    height: 196px;
+    width: 196px;   
+}
+.imgkhalid p{
+    color: #FFFFFF;
+    font-size: 14px;
+    font-weight: 600;
+}
+.musiclogo{
+    margin-top: 188px;
+}
+
+.boston{
+    background-image: url(./images/boston.jpg);
+    height: 236px;
+    min-width: 417px;
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+    
+}
+.boston p{
+    color: #FFFFFF;
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    margin-left: 15px;
+}
+.boston svg{
+    margin-bottom: 23px;
+    margin-right: 15px;
+}
+.kim{
+    background-image: url(./images/kim.jpg);
+    height: 236px;
+    min-width: 417px;
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+}
+.kim p{
+    color: #FFFFFF;
+    font-size: 14px;
+    font-weight: 600;
+    margin-left: 15px;
+    margin-bottom: 20px;
+}
+.kim svg{
+    margin-right: 15px;
+    margin-bottom: 23px;
+}
+
+.music{
+    height: 236px;
+    min-width: 417px;
+    background-color: #EBB799;
+    display: flex;
+    align-items: center;
+}
+.music img{
+    height: 196px;
+    width: 196px;
+    margin-left: 15px;
+}
+.buttonplay{
+    display: flex;
+    justify-content: end;
+}
+.buttonplay img{
+    height: 24px;
+    width: 24px;
+    margin-right: 16px;
+}
+.tablet-contents{
+    display: flex;
+    gap: 16px;
+    overflow-x: scroll;
+    scroll-behavior: smooth;
+    scroll-snap-type: mandatory;
+    height: 194px;
+    width: 768px;
+}
+.tablet-contents{
+    display: none;
+}
+.tablet-cons{
+    display: flex;
+    flex-direction: column;
+}
+.tablet-con1{
+    min-width: 286px;
+    height: 161px;
+    background: #6529CF;
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+}
+.tablet-con1 img{
+    height: 114px;
+    width: 114px;
+}
+.tablet-con2{
+    min-width: 286px;
+    height: 161px;
+    background-image: url(./images/friendly-workout.jpg);
+    background-image: center;
+    display: flex; 
+    align-items: end;
+    justify-content: end;
+    padding-bottom: 15px;
+    padding-right: 15px;
+}
+.tablet-con3{
+    min-width: 286px;
+    height: 161px;
+    background-image: url(./images/boston.jpg);
+    background-image: center;
+    display: flex; 
+    align-items: end;
+    justify-content: end;
+    padding-bottom: 15px;
+    padding-right: 15px;
+}
+.tablet-cons p {
+    margin-top: 15px;
+    font-size: 14px;
+    font-weight: 700;
+    color: #1D1D1F;
+}
+.buttonplay{
+    display: flex; justify-content: end;
+}
+.buttonplay img{
+    width: 24px;
+    height: 24px;
+}
+
+@media (max-width: 768px)
+{
+    .contents{
+        height: 194px;
+    }
+    .contentss{
+        display: none;
+    }
+    .tablet-contents{
+    display: flex;
+    }
+}
+
+@media (max-width: 390px)
+{
+    .contents{
+        width: 390px;
+        height: 216px;
+    }
+    .tablet-contents{
+        width: 390px;
+        height: 176px;
+    }
+    .tablet-con1{
+    min-width: 238px;
+    height: 134px;
+    }
+     .tablet-con2{
+    min-width: 238px;
+    height: 134px;
+    }
+     .tablet-con3{
+    min-width: 238px;
+    height: 134px;
+    }
+}

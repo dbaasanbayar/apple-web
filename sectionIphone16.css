@@ -22,7 +22,6 @@
     font-size: 16px;
     font-weight: 400;
     text-align: center;
-
 }
 .Buttonwhitebuy{
     width: 68px;
@@ -36,4 +35,38 @@
     font-size: 16px;
     font-weight: 400;
     text-align: center;
+    background-color: transparent;
+}
+
+@media (max-width: 390px)
+{   .Iphone16{
+    background-image: url(./images/iphne16-390.jpg);
+    width: 390px;
+    height: 500px;
+    }
+    .Iphone16 h1{
+        font-size: 30px;
+        font-weight: 700;
+        text-align: center; 
+        padding-top: 36px;
+    }
+    .Iphone16 p{
+        font-size: 18px;
+        font-weight: 400;
+        text-align: center;
+        margin-top: 8px;
+        margin-bottom: 16px;
+    }
+
+
+    .Buttonwhite{
+        width:107px;
+        height: 36px;
+    }
+    .Buttonwhitebuy{
+        height: 36px;
+        width: 66px;
+        
+    }
+
 }
